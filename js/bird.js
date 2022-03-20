@@ -36,6 +36,28 @@ window.onload = function () {
 			window.onmousemove = null;
 		}
 	}
+	window.ontouchstart = function (e) {
+		e = e || window.event;
+		var mouseX = e.clientX, mouseY = e.clientY;
+		var transform = dl.style.transform;
+		var rotateX = transform.substr(transform.indexOf('rotateX(') + 8);
+		var rotateY = transform.substr(transform.indexOf('rotateY(') + 8);
+		rotateX = parseInt(rotateX.substring(0, rotateX.indexOf('deg')));
+		rotateY = parseInt(rotateY.substring(0, rotateY.indexOf('deg')));
+		window.ontouchmove = function (e) {
+			e = e || window.event;
+			var x = rotateX - (e.clientY - mouseY);
+			var y = rotateY + (e.clientX - mouseX);
+			if (x > 360 || x < -360)
+				x %= 360;
+			if (y > 360 || y < -360)
+				y %= 360;
+			dl.style.transform = "rotateX(" + x + "deg) rotateY(" + y + "deg)";
+		}
+		window.ontouchend = function () {
+			window.ontouchstart = null;
+		}
+	}	
 	function deal(dds, n) {
 		var speed = 100;
 		var translateZTerminus = 400;
