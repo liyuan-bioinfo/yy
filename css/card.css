@@ -68,17 +68,17 @@ body {
 	float: left;
 	width: 440px;
 	height: 400px;
-	color: #333;
+	color: #ffffff;
 	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
 	font-size: 16px;
 }
 
 #code .string {
-	color: #2a36ff
+	color: #ff007f
 }
 
 #code .keyword {
-	color: #7f0055;
+	color: #ffaa00;
 	font-weight: bold
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 #code .comments {
-	color: #3f7f5f
+	color: #aaaa7f
 }
 
 #copyright {
