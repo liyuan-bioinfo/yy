@@ -1,0 +1,710 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0034)https://www.jsdaima.com/d-626.html -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+		<link rel="stylesheet" href="./css/img.normalize.css">
+		<link rel="stylesheet" href="./css/img.styles.css" media="screen">
+		<link rel="stylesheet" href="./css/img.jquery.tiles.min.css">
+		
+		<link rel="stylesheet" href="css/splitting.css">
+		<link rel="stylesheet" href="css/splitting-cells.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<style>
+		 
+		</style>
+	</head>
+	<body class="" style="margin-top:2%;" id="img-slide">
+
+		<div class="title">
+			<label>Effect:</label>
+			<select id="effects-select">
+				<option value="default">default</option>
+				<option value="simple">simple</option>
+				<option value="left">left</option>
+				<option value="up">up</option>
+				<option value="leftright">leftright</option>
+				<option value="updown">updown</option>
+				<option value="switchlr">switchlr</option>
+				<option value="switchud">switchud</option>
+				<option value="fliplr">fliplr</option>
+				<option value="flipud">flipud</option>
+				<option value="reduce">reduce</option>
+				<option value="360">360</option>
+			</select>
+			<!-- <div class="code"><code>x: 20</code><code>y: 1</code><code>rewind: 60</code><code>backReverse: true</code> -->
+			<!-- </div> -->
+			<button type="button" class="start action" style="display: none;">Play</button>
+			<button type="button" class="stop action" style="display: inline-block;">Stop</button>
+		</div>
+
+		<div class="slider-wrap"  id="slider-page">
+			<div class="slider">
+				<p><strong>喀纳斯湖:</strong> 喀纳斯湖以神秘的湖怪、变换颜色的湖水和炫目的自然风光而让人痴迷。它位于阿尔泰山深山密林中，无论何种颜色，都是油彩般浓浓的，如注满了陈年老酒般令人沉醉不已。 </p>
+				<img class="img-fluid" src="img/1.png">
+				<p><strong>禾木村:</strong> 位于北疆阿勒泰地区布尔津县，喀纳斯湖东侧约30公里处，是一个由哈萨克人和图瓦人共同聚居的小村庄，充满原始味道。万山红遍的醉人秋色，炊烟在秋色中冉冉升起，形成一条梦幻般的烟雾带，胜似仙境。</p>
+				<img src="img/2.png">
+				<p><strong>赛里木湖:</strong> 赛里木湖背靠雪山，终年不化，银装素裹。湖水碧蓝，湖边是广阔草原，牧马奔驰，牛驼踱步，静谧、温馨、粗犷深远、如诗如画……</p>
+				<img src="img/3.png">
+				<p><strong>那拉提草原:</strong> 位于伊犁州新源县境内的那拉提草原，是世界四大草原之一的亚高山草甸植物区，自古以来就是著名的牧场。河道交错，森林茂密，莽原展缓起伏，松塔沿沟擎柱，还有毡房点点，畜群云移。</p>
+				<img src="img/4.png">
+				<p><strong>天山天池:</strong> 古称“瑶池”，是天山博格达峰北侧的一个半月形湖泊。湖水晶莹如玉，倒映着博格达峰，四周群山环抱，山上布满了挺拔、苍翠的云杉、塔松，漫山遍岭，风景犹如仙境。</p>
+				<img src="img/5.png">
+				<p><strong>白哈巴村:</strong> 位于中国与哈萨克斯坦接壤的界河畔，是新疆阿勒泰地区图瓦人最集中的一个村子，被称为“中国西部第一村”。一年四季都美如油画，特别是在秋天。金黄的杨树叶，淡黄的落叶松，肆意流窜的金色把山村包围，宛若童话世界。</p>
+				<img src="img/6.png">
+				<p><strong>可可托海:</strong> 可可托海风景区暨可可托海国家地质公园，集优美峡谷河源风光、沼泽湿地景观、寒极湖泊、地质矿产资源等自然景色为一体。清澈的河流沿峡谷哗哗而过，四周陡峭山峰环抱。山林河水相映，树叶如花，苍茫如海。</p>
+				<img src="img/7.png">
+				<p><strong>伊犁杏花沟:</strong> 位于伊犁河谷阿吾拉勒山南麓的杏花沟，气候湿润，水汽充沛。三万多亩原始野生杏树林，花开时节，如同童话世界。</p>
+				<img src="img/8.png">
+				<p><strong>五彩滩:</strong> 位于新疆布尔津县城西北24公里处的额尔齐斯河北岸，是一个以雅丹地貌著称的河滩。地下侏罗纪时代的煤层，经过千万年风蚀雨剥以及河水的冲刷，在几乎寸草不生的河滩上出现了红、绿、紫、黄、棕等鲜艳的色彩。</p>
+				<img src="img/9.png">
+				<p><strong>火焰山:</strong> 维吾尔语称“克孜尔塔格”，意为“红山”。火焰山重山秃岭，寸草不生。每当盛夏，红日当空，地气蒸腾，焰云燎绕，形如飞腾的火龙十分壮观。</p>
+				<img src="img/10.png">
+				<p><strong>可可托海:</strong> 可可托海风景区暨可可托海国家地质公园，集优美峡谷河源风光、沼泽湿地景观、寒极湖泊、地质矿产资源等自然景色为一体。清澈的河流沿峡谷哗哗而过，四周陡峭山峰环抱。山林河水相映，树叶如花，苍茫如海。</p>
+			</div>
+		</div>
+		
+		
+		<div class="container" style="margin-top:15%;margin-left:5%">
+				<div class="text words chars splitting" data-splitting="" style="--word-total:3; --char-total:25;"><span
+						class="word" data-word="Happy" style="--word-index:0;"><span class="char" data-char="H"
+							style="--char-index:0;">H</span><span class="char" data-char="a"
+							style="--char-index:1;">a</span><span class="char" data-char="p"
+							style="--char-index:2;">p</span><span class="char" data-char="p"
+							style="--char-index:3;">p</span><span class="char" data-char="y"
+							style="--char-index:4;">y</span></span><span class="whitespace"> </span><span class="word"
+						data-word="Birthday," style="--word-index:1;"><span class="char" data-char="B"
+							style="--char-index:5;">B</span><span class="char" data-char="i"
+							style="--char-index:6;">i</span><span class="char" data-char="r"
+							style="--char-index:7;">r</span><span class="char" data-char="t"
+							style="--char-index:8;">t</span><span class="char" data-char="h"
+							style="--char-index:9;">h</span><span class="char" data-char="d"
+							style="--char-index:10;">d</span><span class="char" data-char="a"
+							style="--char-index:11;">a</span><span class="char" data-char="y"
+							style="--char-index:12;">y</span><span class="char" data-char=","
+							style="--char-index:13;">,</span></span><span class="whitespace"> </span>
+							<span class="word"
+								data-word="" style="--word-index:2;">
+							<span class="char" data-char="J"
+							style="--char-index:14;">L</span><span class="char" data-char="a"
+							style="--char-index:15;">Y</span><span class="char" data-char="v"
+							style="--char-index:16;">Y</span>
+							<span class="char" data-char="!"
+							style="--char-index:24;">!</span>
+							</span>
+							</div>
+				<div class="presents">
+					<div class="present orange" id="card_present">
+						<div class="lid"></div>
+						<div class="box"></div>
+						<div class="bow"></div>
+						<div class="ribbon"></div>
+					</div>
+					<div class="present blue" id="cake_present">
+						<div class="lid"></div>
+						<div class="box"></div>
+						<div class="bow"></div>
+						<div class="ribbon"></div>
+					</div>
+					<div class="present green" id="photo_present">
+						<div class="lid"></div>
+						<div class="box"></div>
+						<div class="bow"></div>
+						<div class="ribbon"></div>
+					</div>
+				</div>
+		</div>
+		
+		<div data-name="mojs-shape" class=""
+			style="position: absolute; width: 0px; height: 0px; margin-left: 0px; margin-top: 0px; opacity: 1; left: 0px; top: 0px; transform: translate(820px, 60px) rotate(0deg) scale(1, 1); transform-origin: 50% 50%;">
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(1e-06px, -200px) rotate(90deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(61.8034px, -190.211px) rotate(108deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(117.557px, -161.803px) rotate(126deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(161.803px, -117.557px) rotate(144deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(190.211px, -61.8034px) rotate(162deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(200px, 0px) rotate(180deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(190.211px, 61.8034px) rotate(198deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(161.803px, 117.557px) rotate(216deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(117.557px, 161.803px) rotate(234deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(61.8034px, 190.211px) rotate(252deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(1e-06px, 200px) rotate(270deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-61.8034px, 190.211px) rotate(288deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-117.557px, 161.803px) rotate(306deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-161.803px, 117.557px) rotate(324deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-190.211px, 61.8034px) rotate(342deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-200px, 1e-06px) rotate(360deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-190.211px, -61.8034px) rotate(378deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-161.803px, -117.557px) rotate(396deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-117.557px, -161.803px) rotate(414deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-61.8034px, -190.211px) rotate(432deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+		</div>
+		<div data-name="mojs-shape" class=""
+			style="position: absolute; width: 0px; height: 0px; margin-left: 0px; margin-top: 0px; opacity: 1; left: 0px; top: 0px; transform: translate(147px, 439px) rotate(0deg) scale(1, 1); transform-origin: 50% 50%;">
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(1e-06px, -200px) rotate(90deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(61.8034px, -190.211px) rotate(108deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(117.557px, -161.803px) rotate(126deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(161.803px, -117.557px) rotate(144deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(190.211px, -61.8034px) rotate(162deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(200px, 0px) rotate(180deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(190.211px, 61.8034px) rotate(198deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(161.803px, 117.557px) rotate(216deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(117.557px, 161.803px) rotate(234deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(61.8034px, 190.211px) rotate(252deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(1e-06px, 200px) rotate(270deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-61.8034px, 190.211px) rotate(288deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-117.557px, 161.803px) rotate(306deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-161.803px, 117.557px) rotate(324deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-190.211px, 61.8034px) rotate(342deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-200px, 1e-06px) rotate(360deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-190.211px, -61.8034px) rotate(378deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-161.803px, -117.557px) rotate(396deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-117.557px, -161.803px) rotate(414deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-61.8034px, -190.211px) rotate(432deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+		</div>
+		<div data-name="mojs-shape" class=""
+			style="position: absolute; width: 0px; height: 0px; margin-left: 0px; margin-top: 0px; opacity: 1; left: 0px; top: 0px; transform: translate(771px, 102px) rotate(0deg) scale(1, 1); transform-origin: 50% 50%;">
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(1e-06px, -200px) rotate(90deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(61.8034px, -190.211px) rotate(108deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(117.557px, -161.803px) rotate(126deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(161.803px, -117.557px) rotate(144deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(190.211px, -61.8034px) rotate(162deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(200px, 0px) rotate(180deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(190.211px, 61.8034px) rotate(198deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(161.803px, 117.557px) rotate(216deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(117.557px, 161.803px) rotate(234deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(61.8034px, 190.211px) rotate(252deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(1e-06px, 200px) rotate(270deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-61.8034px, 190.211px) rotate(288deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-117.557px, 161.803px) rotate(306deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-161.803px, 117.557px) rotate(324deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-190.211px, 61.8034px) rotate(342deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-200px, 1e-06px) rotate(360deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-190.211px, -61.8034px) rotate(378deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-161.803px, -117.557px) rotate(396deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-117.557px, -161.803px) rotate(414deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+			<div data-name="mojs-shape" class=""
+				style="position: absolute; width: 12px; height: 12px; margin-left: -6px; margin-top: -6px; opacity: 1; left: 50%; top: 50%; transform: translate(-61.8034px, -190.211px) rotate(432deg) scale(0, 0); transform-origin: 50% 50%;">
+				<svg style="display: block; width: 100%; height: 100%; left: 0px; top: 0px;">
+					<ellipse rx="5" ry="5" cx="6" cy="6" fill-opacity="1" stroke-linecap="" stroke-dashoffset=""
+						fill="rgba(52,225,255,1)" stroke-dasharray="" stroke-opacity="1" stroke-width="2"
+						stroke="transparent"></ellipse>
+				</svg></div>
+		</div>
+		<!-- <script src="./js/jquery.js"></script> -->
+		<script src="./js/jquery-1.10.2.min.js"></script>
+		<script src="js/main.mo.min.js"></script>
+		<script src="js/main.splitting.min.js"></script>
+		<script src="js/main.script.js"></script>
+		<script src="./js/img.jquery.tiles.js"></script>
+		
+		<script type="text/javascript">
+			function stops() {
+				return false;
+			}
+			document.oncontextmenu = stops;
+		</script>
+		<script type="text/javascript">
+			var $slider = $('.slider-wrap');
+			var html = $slider.html();
+
+			// Options
+
+			var defaults = {
+				thumbSize: 20,
+				onSlideshowEnd: function() {
+					$('.stop, .start').toggle()
+					$('.slider').tilesSlider('start');
+				}
+			};
+
+			var effects = {
+				'default': {
+					x: 6,
+					y: 4,
+					random: true
+				},
+				simple: {
+					x: 6,
+					y: 4,
+					effect: 'simple',
+					random: true
+				},
+				left: {
+					x: 1,
+					y: 8,
+					effect: 'left'
+				},
+				up: {
+					x: 20,
+					y: 1,
+					effect: 'up',
+					rewind: 60,
+					backReverse: true
+				},
+				leftright: {
+					x: 1,
+					y: 8,
+					effect: 'leftright'
+				},
+				updown: {
+					x: 20,
+					y: 1,
+					effect: 'updown',
+					cssSpeed: 500,
+					backReverse: true
+				},
+				switchlr: {
+					x: 20,
+					y: 1,
+					effect: 'switchlr',
+					backReverse: true
+				},
+				switchud: {
+					x: 1,
+					y: 8,
+					effect: 'switchud'
+				},
+				fliplr: {
+					x: 20,
+					y: 1,
+					effect: 'fliplr',
+					backReverse: true
+				},
+				flipud: {
+					x: 20,
+					y: 3,
+					effect: 'flipud',
+					reverse: true,
+					rewind: 75
+				},
+				reduce: {
+					x: 6,
+					y: 4,
+					effect: 'reduce'
+				},
+				360: {
+					x: 1,
+					y: 1,
+					effect: '360',
+					fade: true,
+					cssSpeed: 600
+				}
+			};
+
+			$('#effects-select').change(function() {
+				var effect = $(this).val();
+				$slider.fadeTo(0, 0).html(html);
+				$('.stop').hide();
+				$('.start').show();
+
+				setTimeout(function() {
+					$('.slider').tilesSlider($.extend({}, defaults, effects[effect]));
+					$slider.fadeTo(0, 1);
+					$('body').removeClass('tiles-preload');
+				}, 100);
+
+				$('.code').empty().html(function() {
+					var e = effects[effect],
+						c = [];
+					for (var i in e) {
+						if (i !== 'effect') {
+							c.push('<code>' + i + ': ' + e[i] + '</code>');
+						}
+					}
+					return c.join('');
+				});
+			});
+
+			$('.start').click(function() {
+				$(this).hide();
+				$('.stop').show();
+				$('.slider').tilesSlider('start');
+			});
+
+			$('.stop').click(function() {
+				$(this).hide();
+				$('.start').show();
+				$('.slider').tilesSlider('stop');
+			});
+
+			$('.slider').tilesSlider($.extend({}, defaults, effects['default']));
+		</script>
+
+		<script>
+		$(function(){
+			
+			$('.slider').tilesSlider('start');
+			// $('#img-slide').show();
+		})
+	$("#card_present").click(function(){
+	  window.location.href="yy-gift1.html"
+	});
+	$("#cake_present").click(function(){
+	  window.location.href="yy-gift2.html"
+	});
+	$("#photo_present").click(function(){
+	  window.location.href="yy-gift3.html"
+	});
+		
+		</script>
+
+	</body>
+</html>
