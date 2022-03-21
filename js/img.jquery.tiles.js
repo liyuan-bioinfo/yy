@@ -14,7 +14,7 @@
       rewind: false,
       auto: false,
       loop: false,
-      slideSpeed: 3500,
+      slideSpeed: 10000,
       tileSpeed: 800,
       cssSpeed: 300,
       nav: true,
